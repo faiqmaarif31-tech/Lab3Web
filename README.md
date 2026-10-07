@@ -160,7 +160,7 @@ CSS Inline pada contoh tersebut memberikan warna merah secara langsung pada elem
 
 ### 4. ID Selector dan Class Selector
 
-4. ID Selector dan Class Selector
+
 
 Jika sebuah elemen memiliki ID dan Class, kemudian kedua selector tersebut memiliki deklarasi CSS, ID Selector memiliki specificity lebih tinggi daripada Class Selector.
 
