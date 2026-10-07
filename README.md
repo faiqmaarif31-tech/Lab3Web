@@ -160,4 +160,21 @@ CSS Inline pada contoh tersebut memberikan warna merah secara langsung pada elem
 
 ### 4. ID Selector dan Class Selector
 
-Jika sebuah elemen memiliki ID dan Class, kemudian ked
+4. ID Selector dan Class Selector
+
+Jika sebuah elemen memiliki ID dan Class, kemudian kedua selector tersebut memiliki deklarasi CSS, ID Selector memiliki specificity lebih tinggi daripada Class Selector.
+
+Contoh:
+
+<p id="paragraf-1" class="text-paragraf">
+    Contoh paragraf
+</p>
+#paragraf-1 {
+    color: red;
+}
+
+.text-paragraf {
+    color: blue;
+}
+
+Pada contoh tersebut, warna teks menjadi merah karena ID Selector memiliki specificity lebih tinggi daripada Class Selector.
